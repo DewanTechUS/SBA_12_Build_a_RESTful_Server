@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Finder API</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
+  </head>
+
+  <body>
+ <video id="bgVideo" autoplay muted loop playsinline>
+  <source src="/Intro_batman_royalty_free.mp4" type="video/mp4" />
+</video>
+
+<p class="hint">🦇 Click anywhere to activate Batman mode 🦇</p>
+
+
+    <div class="container">
+      
+       
+           <div class="para"> <br> <p>
+            A RESTful API server that allows you to search for movies
+            and get detailed information about them using the OMDB API. </p>
+        <h1>This is Dewan-Mahmud's Movie Finder API</h1>
+
+      <p><strong>Instructions:</strong> Try the following endpoints:</p>
+
+      <p>
+        <a href="/api/search?title=batman" target="_blank" rel="noopener noreferrer">
+          /api/search?title=batman
+        </a>
+        <br />
+        <a href="/api/movies/tt0372784" target="_blank" rel="noopener noreferrer">
+          /api/movies/tt0372784
+        </a>
+      </p>
+
+      <div class="url-box">
+        <p><strong>Full URLs for testing:</strong></p>
+
+        <a href="/api/search?title=batman" target="_blank" rel="noopener noreferrer">
+          http://localhost:3000/api/search?title=batman
+        </a>
+        <br />
+
+        <a href="/api/movies/tt0372784" target="_blank" rel="noopener noreferrer">
+          http://localhost:3000/api/movies/tt0372784
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
