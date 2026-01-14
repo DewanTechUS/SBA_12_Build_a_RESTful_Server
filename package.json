@@ -1,7 +1,7 @@
 {
   "name": "movie-finder-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A RESTful API server for finding movies using the OMDB API",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,8 +9,8 @@
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Dewan Mahmud",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.13.2",
     "dotenv": "^17.2.3",
