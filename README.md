@@ -67,8 +67,8 @@ PORT=3000
 
 ### Testing the API
 Use a browser or Postman to test:
-http://localhost:3000/api/search?title=batman
-http://localhost:3000/api/movies/tt0372784
+- http://localhost:3000/api/search?title=batman
+- http://localhost:3000/api/movies/tt0372784
 
 ## Reflection
 This project strengthened my understanding of RESTful API design and backend development using Express. I learned how to structure an application using routes and controllers, which improved organization and maintainability.
