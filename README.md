@@ -67,8 +67,8 @@ PORT=3000
 ### The server will run at:
 - http://localhost:3000
 
-### Testing the API
-Use a browser or Postman to test:
+### Testing the API (Local)
+Use a browser or Postman to test (Local):
 - http://localhost:3000/api/search?title=batman
 - http://localhost:3000/api/movies/tt0372784
 
